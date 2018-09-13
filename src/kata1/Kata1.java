@@ -5,7 +5,7 @@
  */
 package kata1;
 
-import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  *
@@ -19,8 +19,8 @@ public class Kata1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Person a = new Person("Pepe",new Date(2013,10,10));
-        Date fecha = new Date(2018,10,10);
+        Person a = new Person("Pepe",new GregorianCalendar(2013,10,10));
+        GregorianCalendar fecha = new GregorianCalendar(2025,10,10);
         System.out.println(a.getName() + " tiene " + a.getAge(fecha) + " años");
     }
     
